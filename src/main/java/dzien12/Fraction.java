@@ -1,7 +1,6 @@
 package dzien12;
 
 public class Fraction {
-
     private int nominator; // licznik
     private int denominator; // mianownik
 
