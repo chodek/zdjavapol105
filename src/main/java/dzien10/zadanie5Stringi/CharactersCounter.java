@@ -1,11 +1,13 @@
 package dzien10.zadanie5Stringi;
 
+import helper.DataLoader;
+
 import java.util.Scanner;
 
 public class CharactersCounter {
 
     public static void main(String[] args) {
-        String loadedString = loadStringFromUser();
+        String loadedString = DataLoader.loadStringFromUser();
         countAndPrintCharacterOccurences(loadedString);
     }
 
@@ -20,10 +22,6 @@ public class CharactersCounter {
 
     }
 
-    private static String loadStringFromUser() {
-        Scanner scanner = new Scanner(System.in);
-        return scanner.nextLine();
-    }
 
 
 }
